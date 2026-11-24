@@ -1,0 +1,39 @@
+# Build outputs & staged binaries
+build/
+**/build/
+_build/
+dist/
+out/
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.dll
+*.exe
+*.vst3/
+*.vst3
+*.clap
+
+# Third-party SDKs (fetched via scripts/setup_deps.ps1)
+third_party/
+
+# Archives & temp files
+*.zip
+*.7z
+*.tmp
+*.log
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
+Thumbs.db
+.DS_Store
+
+# In-progress plugins not yet released (remove lines as each ships)
+plugins/Physicalize/
+plugins/Tactile/
+plugins/Bricolage/
